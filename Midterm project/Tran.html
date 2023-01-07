@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>SKKU ATM</title>
+</head>
+<body>
+    <div class='main_view'>
+        <figure>
+            <ul>
+              <div class = 'speaker'> </div>
+              <div class = 'camera'> </div>
+            </ul>
+            <ul>
+              <li><p class = "To_">From</p></li>
+              <li><select id = "src" class="sel_src" name="">
+                <option>Choose an Account</option>
+                <option value="1234567890123456">1234567890123456</option>
+              </select></li>
+
+            </ul>
+            <ul>
+              <li><p class = "To_">&nbsp&nbsp&nbsp&nbspTo</p></li>
+              <li><select id = "dst" class="sel_dst" name="">
+                <option>Choose an Account</option>
+                <option value="1234567887654321">1234567887654321</option>
+              </select></li>
+
+            </ul>
+
+            <ul>
+              <li> <p class='display'>$0000.00</p> </li>
+            </ul>
+
+            <ul>
+              <li> <button class='number'>1</button> </li>
+              <li> <button class='number'>2</button> </li>
+              <li> <button class='number'>3</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='number'>4</button> </li>
+              <li> <button class='number'>5</button> </li>
+              <li> <button class='number'>6</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='number'>7</button> </li>
+              <li> <button class='number'>8</button> </li>
+              <li> <button class='number'>9</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='number'>0</button> </li>
+              <li> <button class='DOT' id = 'dot_'>.</button> </li>
+              <li> <button class='DEL'>Del</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='depo_enter'>Enter</button></li>
+            </ul>
+
+            <ul>
+              <li> <button class='back'>Back</button></li>
+            </ul>
+        </figure>
+    </div>
+<script src = 'Tran.js'> </script>
+</body>
+</html>

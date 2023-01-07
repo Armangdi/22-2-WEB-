@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>SKKU ATM</title>
+</head>
+<body>
+    <div class='main_view'>
+        <figure>
+            <ul>
+              <div class = 'speaker'> </div>
+              <div class = 'camera'> </div>
+            </ul>
+            <ul>
+              <p class='EnterDepo'>Enter the amount to withdraw</p>
+            </ul>
+
+            <ul>
+              <li> <p class='display'>$0000.00</p> </li>
+            </ul>
+            <ul>
+              <li> <p class ='quick'>Quick Link</p> </li>
+              <li><p>&nbsp&nbsp&nbsp&nbsp&nbsp</p></li>
+              <li><p class = 'quick'>Quick Link</p></li>
+            </ul>
+            <ul>
+              <li> <button class='number_with'>20</button> </li>
+              <li> <button onclick="on100();" class='u100'><img onmouseover="this.src ='./assets/uparrow100copyhover.png'" onmouseout="this.src ='./assets/uparrow100copy.png'" width="60px" src="./assets/uparrow100copy.png" alt=""></button> </li>
+              <li> <button class='number_with'>100</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='number_with'>40</button> </li>
+              <li> <button onclick="on20();" class='u20'><img onmouseover="this.src ='./assets/uparrow20copyhover.png'" onmouseout="this.src ='./assets/uparrow20copy.png'" width="60px" src="./assets/uparrow20copy.png" alt=""></button> </li>
+              <li> <button class='number_with'>200</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='number_with'>60</button> </li>
+              <li> <button onclick="on20d();" class='d20'><img onmouseover="this.src ='./assets/downarrow20copyhover.png'" onmouseout="this.src ='./assets/downarrow20copy.png'" width="60px" src="./assets/downarrow20copy.png" alt=""></button> </li>
+              <li> <button class='number_with'>300</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='number_with'>80</button> </li>
+              <li> <button onclick="on100d();" class='d100'><img onmouseover="this.src ='./assets/downarrow100copyhover.png'" onmouseout="this.src ='./assets/downarrow100copy.png'" width="60px" src="./assets/downarrow100copy.png" alt=""></button> </li>
+              <li> <button class='number_with'>400</button> </li>
+            </ul>
+            <ul>
+              <li> <button class='with_enter'>Enter</button></li>
+            </ul>
+
+            <ul>
+              <li> <button class='with_back'>Back</button></li>
+            </ul>
+        </figure>
+    </div>
+<script src = 'with.js'> </script>
+</body>
+</html>
